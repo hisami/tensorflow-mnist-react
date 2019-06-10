@@ -1,0 +1,25 @@
+{
+  "name": "tensorflow-mnist-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently -r \"npm:type-check:watch\" \"npm:start\"",
+    "start": "parcel ./src/index.html",
+    "build": "npm run type-check && parcel build ./src/index.html --public-url '/'",
+    "type": "tsc --noEmit",
+    "type:watch": "tsc --noEmit --watch"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "@types/styled-components": "^4.1.14",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.2"
+  }
+}
