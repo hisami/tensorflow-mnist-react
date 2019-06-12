@@ -11,8 +11,12 @@
     "type:watch": "tsc --noEmit --watch"
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^1.1.2",
+    "bulma": "^0.7.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-signature-pad-wrapper": "^1.2.5",
+    "signature_pad": "^3.0.0-beta.3",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
