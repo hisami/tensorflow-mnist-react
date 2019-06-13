@@ -29,8 +29,6 @@ const App: React.FC = () => {
         context.drawImage(image, 0, 0, width, height);
         const imageData = context.getImageData(0, 0, width, height);
 
-        console.log(imageData.data);
-
         resolve(imageData);
       };
 
