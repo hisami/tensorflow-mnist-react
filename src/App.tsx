@@ -77,7 +77,7 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <h1 className="title has-text-centered">
-        MNIST recognition with TensorFlow.js
+        手書き文字認識
       </h1>
       <div className="columns is-centered">
         <div className="column is-3">
@@ -94,7 +94,7 @@ const App: React.FC = () => {
           />
           <div className="field is-grouped">
             <p className="control">
-              <a className="button is-primary" onClick={predict}>
+              <a className="button is-link" onClick={predict}>
                 Predict
               </a>
             </p>
